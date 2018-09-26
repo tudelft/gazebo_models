@@ -49,7 +49,7 @@
     
     <include>
       <uri>model://drone_race_track</uri>
-      <pose>-4 2 0 0 0 1.57</pose>
+      <pose>4 -2 0 0 0 -1.57</pose>
     </include>
     
   </world>
