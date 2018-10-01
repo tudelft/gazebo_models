@@ -234,7 +234,7 @@
     </model>
     <model name='dronerace gate 2018_4'>
       <static>1</static>
-      <pose frame=''>3.0 2.0 0.7 0 -0 0</pose>
+      <pose frame=''>3.0 2.0 1.7 0 -0 0</pose>
       <link name='dronerace gate 2018'>
         <visual name='gate'>
           <geometry>
@@ -362,10 +362,10 @@
         </link>
       </model>
       <model name='dronerace gate 2018'>
-        <pose frame=''>0 2.5 0 0 -0 0</pose>
+        <pose frame=''>0 3.5 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='dronerace gate 2018'>
-          <pose frame=''>0 2.5 0 0 -0 0</pose>
+          <pose frame=''>0 3.5 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
