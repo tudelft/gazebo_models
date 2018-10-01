@@ -234,7 +234,7 @@
     </model>
     <model name='dronerace gate 2018_4'>
       <static>1</static>
-      <pose frame=''>3.28385 2.25511 0 0 -0 0</pose>
+      <pose frame=''>3.0 2.0 0.7 0 -0 0</pose>
       <link name='dronerace gate 2018'>
         <visual name='gate'>
           <geometry>
@@ -310,7 +310,7 @@
     </model>
     <model name='dronerace dynamic gate 2018'>
       <static>1</static>
-      <pose frame=''>3.18018 5.97004 0 0 -0 0</pose>
+      <pose frame=''>3.0 6.0 0 0 -0 0</pose>
       <link name='dronerace dynamic gate 2018'>
         <visual name='gate'>
           <geometry>
@@ -352,7 +352,7 @@
       <wall_time>1538391702 406690372</wall_time>
       <iterations>846598</iterations>
       <model name='dronerace dynamic gate 2018'>
-        <pose frame=''>2.87616 5.97028 -0.047125 0 -0 1.57</pose>
+        <pose frame=''>3.0 6.0 0 0 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='dronerace dynamic gate 2018'>
           <pose frame=''>2.87616 5.97028 -0.047125 0 -0 1.57</pose>
