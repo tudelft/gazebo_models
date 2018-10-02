@@ -79,7 +79,567 @@
       <longitude_deg>4.3767874</longitude_deg>
       <elevation>45.110</elevation>
       <heading_deg>180</heading_deg><!-- Temporary fix for issue https://bitbucket.org/osrf/gazebo/issues/2022/default-sphericalcoordinates-frame-should -->
-    </spherical_coordinates>
+    </spherical_coordinates> 
+   <model name="paper_back0">
+    <pose>0 3.55 1.9 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.85 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1">
+    <pose>0.85 3.55 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2">
+    <pose>-0.85 3.55 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3">
+    <pose>0 3.55 3.6 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+   <model name="paper_back0_2">
+    <pose>0 7.75 1.9 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.85 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_2">
+    <pose>0.85 7.75 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_2">
+    <pose>-0.85 7.75 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_2">
+    <pose>0 7.75 3.6 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+ <model name="paper_back0_3">
+    <pose>2.8 10.45 1.95 0 0 1.57</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.85 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_3">
+    <pose>2.8 11.3 2.8 0 1.57 1.57</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_3">
+    <pose>2.8 9.6 2.8 0 1.57 1.57</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_3">
+    <pose>2.8 10.45 3.65 0 0 1.57</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+ <model name="paper_back0_4">
+    <pose>4.9 7.35 1.9 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.85 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_4">
+    <pose>5.75 7.35 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_4">
+    <pose>4.05 7.35 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_4">
+    <pose>4.9 7.35 3.6 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+ <model name="paper_back0_5">
+    <pose>4.9 2.55 1.9 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.85 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_5">
+    <pose>5.75 2.55 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_5">
+    <pose>4.05 2.55 2.8 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_5">
+    <pose>4.9 2.55 3.6 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.85 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+ <model name="paper_back0_6">
+    <pose>2.6 2.05 0.7 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.2 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_6">
+    <pose>3.1 2.05 1.2 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_6">
+    <pose>2.1 2.05 1.2 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_6">
+    <pose>2.6 2.05 1.7 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+ <model name="paper_back0_62">
+    <pose>2.6 2.75 0.7 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.01 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.2 0.01 0.25</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="paper_back1_62">
+    <pose>3.1 2.75 1.2 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back2_62">
+    <pose>2.1 2.75 1.2 0 1.57 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
+    <model name="paper_back3_62">
+    <pose>2.6 2.75 1.7 0 0 0</pose>
+    <static>true</static>
+      <link name="link">
+	<collision name="collision">
+	  <geometry>
+	    <box>
+	      <size>0.1 0.01 0.1</size>
+	    </box>
+	  </geometry>
+	</collision>
+	<visual name="visual">
+	  <geometry>
+	    <box>
+	      <size>1.2 0.01 0.25</size>
+	    </box>
+	  </geometry>
+	</visual>
+      </link>
+    </model>
     <model name='gate 1'>
       <static>1</static>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -353,7 +913,7 @@
       <iterations>846598</iterations>
       <model name='gate 1'>
         <pose frame=''>0 3.5 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
+        <scale>1.2 1.2 1.2</scale>
         <link name='dronerace gate 2018'>
           <pose frame=''>0 3.5 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
@@ -363,7 +923,7 @@
       </model>
       <model name='gate 2'>
         <pose frame=''>0 7.7 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
+        <scale>1.2 1.2 1.2</scale>
         <link name='dronerace gate 2018'>
           <pose frame=''>0 7.7 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
@@ -372,10 +932,10 @@
         </link>
       </model>
       <model name='gate 3'>
-        <pose frame=''>2.75 10.45 0 0 -0 1.57</pose>
-        <scale>1 1 1</scale>
+        <pose frame=''>2.75 10.45 0.5 0 0 1.57</pose>
+        <scale>1.2 1.2 1.2</scale>
         <link name='dronerace gate 2018'>
-          <pose frame=''>2.75 10.45 0 0 -0 1.57</pose>
+          <pose frame=''>2.75 10.45 0 0 0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -383,7 +943,7 @@
       </model>
       <model name='gate 4'>
         <pose frame=''>4.9 7.4 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
+        <scale>1.2 1.2 1.2</scale>
         <link name='dronerace gate 2018'>
           <pose frame=''>4.9 7.4 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
@@ -393,7 +953,7 @@
       </model>
       <model name='gate 5'>
         <pose frame=''>4.9 2.6 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
+        <scale>1.2 1.2 1.2</scale>
         <link name='dronerace gate 2018'>
           <pose frame=''>4.9 2.6 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
@@ -402,11 +962,11 @@
         </link>
       </model>
       <model name='gate 6'>
-        <pose frame=''>3.0 1.5 1.0 0 -0 0</pose>
+        <pose frame=''>1.1 2.0 1.7 0 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='dronerace gate 2018'>
-          <pose frame=''>2.79352 1.51441 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
+          <pose frame=''>1.1 2.0 1.7 0 1.57 0</pose>
+          <velocity>0 0 0 0 0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
