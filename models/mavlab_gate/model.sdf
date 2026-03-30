@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="MAVLab TU Delft gate">
+    <static>true</static>
+    <link name="gate_link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://mavlab_gate/meshes/mavlab_gate.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://mavlab_gate/meshes/mavlab_gate.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
