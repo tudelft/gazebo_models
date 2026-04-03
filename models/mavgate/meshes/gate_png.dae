@@ -41,7 +41,7 @@
   </library_effects>
   <library_images>
     <image id="MAV_gate_3__png" name="MAV_gate_3__png">
-      <init_from>MAV_gate(3).png</init_from>
+      <init_from>MAV_gate.png</init_from>
     </image>
   </library_images>
   <library_materials>
