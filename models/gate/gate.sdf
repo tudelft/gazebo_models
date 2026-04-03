@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name="gate">
+    <static>true</static>
+    <pose>0 0 1.2 1.5708 3.14159 0</pose>
+    <link name="gate">
+      <visual name="gate">
+        <geometry>
+          <mesh>
+            <uri>model://gate/gate.dae</uri>
+            <scale>0.00992 0.00992 0.00992</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="gate_collision">
+        <geometry>
+          <mesh>
+            <uri>model://gate/gate.dae</uri>
+            <scale>0.00992 0.00992 0.00992</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
