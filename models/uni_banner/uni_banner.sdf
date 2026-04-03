@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="uni_banner">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+
+    <link name="uni_banner">
+      <pose>0 0 0.02 0 0 0</pose>
+      
+      <visual name="mat">
+        <pose>0 0 0 1.5707 0  0.5853</pose> 
+        <geometry>
+          <mesh>
+            <uri>model://uni_banner/uni_banner.dae</uri>
+            <scale>1.7 0.79305 1.7</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision_mat">
+        <pose>0 0 0 1.5707 0  0.5853</pose> 
+        <geometry>
+          <mesh>
+            <uri>model://uni_banner/uni_banner.dae</uri>
+            <scale>1.7 0.79305 1.7</scale> 
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
