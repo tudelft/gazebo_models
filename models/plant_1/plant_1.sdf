@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="plant_1">
+    
+    <static>true</static> 
+    
+    <link name="link">
+      
+      <visual name="visual">
+        <pose>0 0 0 1.5708  0 0 </pose>
+        <geometry>
+          <mesh>
+            <uri>model://plant_1/meshes/Plant1.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+      <pose>0 0 1.0 0 0 1.5708 </pose>
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
