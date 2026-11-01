@@ -13,11 +13,14 @@
           </mesh>
         </geometry>
       </visual>
+      <!-- Cylinder instead of the mesh: the mesh has no normals, which crashes the gz-sim physics -->
       <collision name="pole_collision">
+        <pose>0 0 1.1 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://orange_pole/orange_pole.dae</uri>
-          </mesh>
+          <cylinder>
+            <radius>0.15</radius>
+            <length>2.2</length>
+          </cylinder>
         </geometry>
       </collision>
     </link>
