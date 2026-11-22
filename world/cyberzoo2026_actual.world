@@ -136,5 +136,10 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <include>
+      <uri>model://uni_banner</uri>
+      <name>uni_banner</name>
+      <pose>4.314 2.105 1.6 0 0 2.0248</pose>
+    </include>
   </world>
 </sdf>
