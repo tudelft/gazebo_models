@@ -43,6 +43,15 @@
           </box>
         </geometry>
       </collision>
+      <collision name="bottom_bar">
+        <pose>0 0 0.2 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02</radius>
+            <length>2.06</length>
+          </cylinder>
+        </geometry>
+      </collision>
       <collision name="post_left">
         <pose>-1.055 0 1.183 0 0 0</pose>
         <geometry>
