@@ -115,9 +115,9 @@
       <pose>2.32683 0.311418 0.02 0 -0 0</pose>
     </include>
     <include>
-      <uri>model://gate</uri>
+      <uri>model://mavlab_gate</uri>
       <name>gate</name>
-      <pose>2.99264 0.094725 1.2 -1.5708 5e-06 1.24649</pose>
+      <pose>2.99264 0.094725 0 0 0 1.24649</pose>
     </include>
     <include>
       <uri>model://plant</uri>
