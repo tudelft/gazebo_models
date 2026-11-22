@@ -11,6 +11,14 @@
           </mesh>
         </geometry>
       </visual>
+      <collision name="banner_collision">
+        <pose>0 0 0.7 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 0.02 1.4</size>
+          </box>
+        </geometry>
+      </collision>
     </link>
   </model>
 </sdf>
