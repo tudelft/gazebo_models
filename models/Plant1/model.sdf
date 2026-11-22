@@ -12,13 +12,14 @@
           </mesh>
         </geometry>
       </visual>
+      <!-- simple shape: the mesh collision (83k triangles) crashes the new Gazebo (gz-sim) physics -->
       <collision name="collision">
-      <pose>0 0 0 1.5708 0 0</pose>
+      <pose>0.38 -0.42 0.91 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://Plant1/meshes/plant.obj</uri>
-            <scale>0.25 0.25 0.25</scale>
-          </mesh>
+          <cylinder>
+            <radius>0.55</radius>
+            <length>1.815</length>
+          </cylinder>
         </geometry>
       </collision>
     </link>

@@ -7,17 +7,42 @@
       <visual name="gate">
         <geometry>
           <mesh>
-            <uri>model://gate/gate.dae</uri>
+            <uri>model://gate/gate.obj</uri>
             <scale>0.00992 0.00992 0.00992</scale>
           </mesh>
         </geometry>
       </visual>
-      <collision name="gate_collision">
+      <!-- four boxes: the mesh collision crashes the new Gazebo (gz-sim) physics -->
+      <collision name="gate_collision_top">
+        <pose>0 -0.86 0.025 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://gate/gate.dae</uri>
-            <scale>0.00992 0.00992 0.00992</scale>
-          </mesh>
+          <box>
+            <size>2.08 0.24 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="gate_collision_bottom">
+        <pose>0 0.91 0.025 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.08 0.22 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="gate_collision_left">
+        <pose>-0.89 0.03 0.025 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 1.54 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="gate_collision_right">
+        <pose>0.89 0.03 0.025 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 1.54 0.1</size>
+          </box>
         </geometry>
       </collision>
     </link>

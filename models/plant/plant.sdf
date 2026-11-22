@@ -8,17 +8,19 @@
       <visual name="plant">
         <geometry>
           <mesh>
-            <uri>model://plant/plant.dae</uri>
+            <uri>model://plant/plant.obj</uri>
             <scale>0.5 0.5 0.5</scale>
           </mesh>
         </geometry>
       </visual>
-      <collision name="plant">
+      <!-- simple shape: the mesh collision (65k triangles) hangs the new Gazebo (gz-sim) physics -->
+      <collision name="plant_collision">
+        <pose>0 0 0.975 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://plant/plant.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
-          </mesh>
+          <cylinder>
+            <radius>0.5</radius>
+            <length>1.95</length>
+          </cylinder>
         </geometry>
       </collision>
     </link>
