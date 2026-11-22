@@ -36,6 +36,12 @@
             <uri>model://cyberzoo/cyberzoo_poles</uri>
             <name>Cyberzoo/Poles</name>
           </script>
+          <!-- Ogre material scripts only work in Gazebo Classic; the new Gazebo (gz-sim) uses this texture -->
+          <pbr>
+            <metal>
+              <albedo_map>model://cyberzoo/cyberzoo_poles/pole.png</albedo_map>
+            </metal>
+          </pbr>
         </material>
         <meta>
           <layer>0</layer>
@@ -121,6 +127,12 @@
             <uri>model://cyberzoo/cyberzoo_net</uri>
             <name>Cyberzoo/Net</name>
           </script>
+          <!-- Ogre material scripts only work in Gazebo Classic; the new Gazebo (gz-sim) uses this texture -->
+          <pbr>
+            <metal>
+              <albedo_map>model://cyberzoo/cyberzoo_net/net.png</albedo_map>
+            </metal>
+          </pbr>
         </material>
         <meta>
           <layer>1</layer>
@@ -150,6 +162,12 @@
             <uri>model://cyberzoo/cyberzoo_toolcart</uri>
             <name>Cyberzoo/Toolcart</name>
           </script>
+          <!-- Ogre material scripts only work in Gazebo Classic; the new Gazebo (gz-sim) uses this texture -->
+          <pbr>
+            <metal>
+              <albedo_map>model://cyberzoo/cyberzoo_toolcart/toolcart_transparent.png</albedo_map>
+            </metal>
+          </pbr>
         </material>
         <meta>
           <layer>2</layer>
