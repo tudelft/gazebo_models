@@ -95,7 +95,7 @@
     </audio>
     <wind/>
     <include>
-      <uri>model://plant</uri>
+      <uri>model://money_tree</uri>
       <name>plant</name>
       <pose>-0.080691 3.00897 0 0 -0 0</pose>
     </include>
@@ -120,12 +120,12 @@
       <pose>2.99264 0.094725 0 0 0 1.24649</pose>
     </include>
     <include>
-      <uri>model://plant</uri>
+      <uri>model://money_tree</uri>
       <name>plant_0</name>
       <pose>2.98451 -1.88403 0 0 -0 0</pose>
     </include>
     <include>
-      <uri>model://plant</uri>
+      <uri>model://money_tree</uri>
       <name>plant_1</name>
       <pose>-2.18179 -2.85957 0 0 -0 0</pose>
     </include>
