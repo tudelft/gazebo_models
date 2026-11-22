@@ -80,361 +80,41 @@
       <elevation>45.110</elevation>
       <heading_deg>180</heading_deg><!-- Temporary fix for issue https://bitbucket.org/osrf/gazebo/issues/2022/default-sphericalcoordinates-frame-should -->
     </spherical_coordinates>
-    <model name='gate 1'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 2'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 3'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 4'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 5'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_gate_2018/normal_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 6'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_junglegate_2018/jungle_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_junglegate_2018/jungle_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <model name='gate 7'>
-      <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <link name='dronerace dynamic gate 2018'>
-        <visual name='gate'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_dynamicgate_2018/dynamic_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='gate_collision'>
-          <geometry>
-            <mesh>
-              <uri>model://dronerace_dynamicgate_2018/dynamic_gate_2018.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-    </model>
-    <state world_name='default'>
-      <sim_time>846 598000000</sim_time>
-      <real_time>911 978630006</real_time>
-      <wall_time>1538391702 406690372</wall_time>
-      <iterations>846598</iterations>
-      <model name='gate 1'>
-        <pose frame=''>0 3.5 0 0 -0 0</pose>
-        <scale>1.2 1.2 1.2</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>0 3.5 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 2'>
-        <pose frame=''>0 7.7 0 0 -0 0</pose>
-        <scale>1.2 1.2 1.2</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>0 7.7 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 3'>
-        <pose frame=''>2.75 10.45 0.5 0 0 1.57</pose>
-        <scale>1.2 1.2 1.2</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>2.75 10.45 0 0 0 1.57</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 4'>
-        <pose frame=''>4.9 7.4 0 0 -0 0</pose>
-        <scale>1.2 1.2 1.2</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>4.9 7.4 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 5'>
-        <pose frame=''>4.9 2.6 0 0 -0 0</pose>
-        <scale>1.2 1.2 1.2</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>4.9 2.6 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 6'>
-        <pose frame=''>1.1 2.0 1.7 0 -0 1.57</pose>
-        <scale>1 1 1</scale>
-        <link name='dronerace gate 2018'>
-          <pose frame=''>1.1 2.0 1.7 0 1.57 0</pose>
-          <velocity>0 0 0 0 0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='gate 7'>
-        <pose frame=''>2.0 5.3 0 0 -0 1.57</pose>
-        <scale>1 1 1</scale>
-        <link name='dronerace dynamic gate 2018'>
-          <pose frame=''>2.0 5.3 0 0 -0 1.57</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='ground_plane'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <light name='sun'>
-        <pose frame=''>0 0 10 0 -0 0</pose>
-      </light>
-    </state>
+    <include>
+      <uri>model://dronerace_gate_2018</uri>
+      <name>gate 1</name>
+      <pose>0 3.5 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_gate_2018</uri>
+      <name>gate 2</name>
+      <pose>0 7.7 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_gate_2018</uri>
+      <name>gate 3</name>
+      <pose>2.75 10.45 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_gate_2018</uri>
+      <name>gate 4</name>
+      <pose>4.9 7.4 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_gate_2018</uri>
+      <name>gate 5</name>
+      <pose>4.9 2.6 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_junglegate_2018</uri>
+      <name>gate 6</name>
+      <pose>1.1 2.0 1.7 0 1.57 0</pose>
+    </include>
+    <include>
+      <uri>model://dronerace_dynamicgate_2018</uri>
+      <name>gate 7</name>
+      <pose>2.0 5.3 0 0 -0 1.57</pose>
+    </include>
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose frame=''>6.27056 -8.58147 29.6461 0 1.16364 1.7402</pose>
