@@ -1,0 +1,6 @@
+# the mesh has no texture coordinates: the colour Gazebo Classic showed with Tree_texture_1.jpg
+newmtl plant
+Ka 0.163 0.259 0.085
+Kd 0.325 0.518 0.169
+Ks 0.05 0.05 0.05
+Ns 64

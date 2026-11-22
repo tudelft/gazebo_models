@@ -10,11 +10,78 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name="collision">
+      <!-- simple shapes: a mesh collision crashes the physics of the new Gazebo (gz-sim, dartsim) -->
+      <collision name="banner_top">
+        <pose>0 0 2.185 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://mavlab_gate/meshes/mavlab_gate.obj</uri>
-          </mesh>
+          <box>
+            <size>2.11 0.05 0.3</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_bottom">
+        <pose>0 0 0.376 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.11 0.05 0.302</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_left">
+        <pose>-0.905 0 1.281 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.05 1.508</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_right">
+        <pose>0.905 0 1.281 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.05 1.508</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="bottom_bar">
+        <pose>0 0 0.2 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02</radius>
+            <length>2.06</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name="post_left">
+        <pose>-1.055 0 1.183 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 2.31</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="post_right">
+        <pose>1.055 0 1.183 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 2.31</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foot_left">
+        <pose>-1.055 0 0.033 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.5 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foot_right">
+        <pose>1.055 0 0.033 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.5 0.05</size>
+          </box>
         </geometry>
       </collision>
     </link>

@@ -3,16 +3,57 @@
   <model name="mav_gate">
     <static>true</static>
     <link name="link">
-    <pose>0 0 1.25 -1.5708 0 0</pose>
-      <collision name="collision">
+      <!-- simple shapes: the mesh collision does not work in the new Gazebo (gz-sim, dartsim) -->
+      <collision name="banner_top">
+        <pose>0 0.025 2.11 0 0 0</pose>
         <geometry>
-          <mesh>
-            <scale>0.01 0.01 0.01</scale>
-            <uri>model://mavgate/meshes/gate_png.dae</uri>
-          </mesh>
+          <box>
+            <size>2.1 0.1 0.24</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_bottom">
+        <pose>0 0.025 0.34 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1 0.1 0.22</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_left">
+        <pose>-0.89 0.025 1.22 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.1 1.54</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="banner_right">
+        <pose>0.89 0.025 1.22 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.1 1.54</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="leg_left">
+        <pose>-1.0 0.025 0.115 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.1 0.23</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="leg_right">
+        <pose>1.0 0.025 0.115 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.1 0.23</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
+        <pose>0 0 1.25 -1.5708 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>

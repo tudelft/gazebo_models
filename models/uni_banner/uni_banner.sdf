@@ -1,32 +1,24 @@
-<?xml version='1.0'?>
-<sdf version='1.4'>
+<?xml version="1.0"?>
+<sdf version="1.6">
   <model name="uni_banner">
     <static>true</static>
-    <pose>0 0 0 0 0 0</pose>
-
-    <link name="uni_banner">
-      <pose>0 0 0.02 0 0 0</pose>
-      
-      <visual name="mat">
-        <pose>0 0 0 1.5707 0  0.5853</pose> 
+    <link name="link">
+      <!-- flat banner (3.0 x 1.4 m), logo on the +y side; place it with the include pose -->
+      <visual name="banner">
         <geometry>
           <mesh>
-            <uri>model://uni_banner/uni_banner.dae</uri>
-            <scale>1.7 0.79305 1.7</scale>
+            <uri>model://uni_banner/uni_banner.obj</uri>
           </mesh>
         </geometry>
       </visual>
-
-      <collision name="collision_mat">
-        <pose>0 0 0 1.5707 0  0.5853</pose> 
+      <collision name="banner_collision">
+        <pose>0 0 0.7 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>model://uni_banner/uni_banner.dae</uri>
-            <scale>1.7 0.79305 1.7</scale> 
-          </mesh>
+          <box>
+            <size>3.0 0.02 1.4</size>
+          </box>
         </geometry>
       </collision>
-
     </link>
   </model>
 </sdf>
