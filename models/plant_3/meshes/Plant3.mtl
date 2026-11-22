@@ -9,6 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl Plants_Set_bark
@@ -19,6 +20,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl Plants_Set_branches
@@ -39,6 +41,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl Plants_Set_leaf_2
@@ -49,6 +52,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl Plants_Set_leaf_3
@@ -59,6 +63,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl Plants_Set_leaf_4
@@ -69,6 +74,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
+Kd 1.000000 1.000000 1.000000
 map_Kd unified_texture.jpg
 
 newmtl red_dirt_mud_01

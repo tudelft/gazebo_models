@@ -17,14 +17,15 @@
       </visual>
 
       <collision name="collision">
-      <pose>0 0 1.0 0 0 1.5708 </pose>
-        <geometry>
-          <cylinder>
-            <radius>0.2</radius>
-            <length>0.5</length>
-          </cylinder>
-        </geometry>
-      </collision>
+      <!-- from the floor to the top of the plant -->
+      <pose>0 0 0.730 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.25</radius>
+          <length>1.46</length>
+        </cylinder>
+      </geometry>
+    </collision>
 
     </link>
   </model>
